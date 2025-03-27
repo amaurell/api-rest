@@ -1,1 +1,2 @@
-console.log("ola");
+function sum(a, b) {
+}
