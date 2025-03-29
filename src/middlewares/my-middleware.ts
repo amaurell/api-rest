@@ -6,6 +6,5 @@ export function myMiddleware(
   next: NextFunction
 ) {
   request.user_id = "123456";
-  console.log("Middleware executed");
   return next();
 }
